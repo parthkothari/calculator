@@ -1,0 +1,29 @@
+
+
+project (assignment3) {
+  exename = assignment3
+  install = .
+ 
+  Source_Files {
+	Add_Command.cpp
+	Binary_Op_Command.cpp
+	Divide_Command.cpp
+	Do_Eval.cpp
+	driver.cpp
+	Evaluate_Postfix.cpp
+	Expr_Command_Factory.cpp
+	infix_to_postfix_algorithm.cpp
+	Mod_Command.cpp
+	Multiply_Command.cpp
+	Number_Command.cpp
+	Solve.cpp
+	Stack_Expr_Command_Factory.cpp
+	Subtract_Command.cpp
+  }
+
+  Template_Files {
+	Array.cpp
+	Iterator.cpp
+    Stack.cpp
+  }
+}
